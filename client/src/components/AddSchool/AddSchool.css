@@ -1,0 +1,62 @@
+.Form {
+    padding: 1rem;
+    background:#a8abac94;
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 1240px) {
+    .form {
+      width: 50%;      
+      margin-bottom: 20px;
+    }
+  }
+
+.Form > div {
+    display: block;
+    padding: 5%;
+}
+
+.Form input {
+    background: #f5f6f7;
+    padding: 0.5rem 1rem;
+    border: 1px solid #0d2c49;
+    border-radius: 10px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: 0.3rem 1rem 0 0;
+}
+
+.Form button {
+    float: right;
+    background:#0d2c49;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+    border: #0d2c49;
+}
+
+.form label {
+    color: rgb(61, 57, 57);
+} 
+
+.form h1 {
+    color: #0d2c49;
+} 
+
+.cancel-button {
+    float: right;
+    background:#0d2c49;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+    border: #0d2c49;
+    margin-left: 2%;
+}
+
+.button-left {
+    display: block;
+    float: right;
+}

@@ -1,0 +1,28 @@
+.column {
+    float: left;
+    display: space-between;
+    position: relative;
+    align-items: center;
+    width: 30%;
+    padding: 1%;
+  }
+
+.row {
+  padding-left: 4%;
+  
+  margin: 5px -5px;
+  text-align: center;}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 1240px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }

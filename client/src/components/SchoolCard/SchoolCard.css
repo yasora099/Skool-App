@@ -1,0 +1,17 @@
+.Card {
+    display: block;
+    justify-content: space-evenly;
+    align-items: center;
+    background:  #a8abac94;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    padding: 16px;
+    border-bottom: 1px solid  #0d2c49;
+}
+
+.Card--text h1 {
+    color: #0d2c49;
+}
+.Card--text h5 {
+    color:  #46494d
+}
